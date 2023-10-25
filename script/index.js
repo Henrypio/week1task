@@ -15,6 +15,7 @@
      charHeight.innerHTML = "Height :" + newdata[0].height
      let charGender = document.getElementById("char-gender");
      charGender.innerHTML = "Gender :" + newdata[0].gender
+     document.getElementById("content1").classList.toggle("hidden");
    })  
  }
  
@@ -35,6 +36,7 @@
      charHeight.innerHTML = "Height :" + newdata[1].height
      let charGender = document.getElementById("char-gender1");
      charGender.innerHTML = "Gender :" + newdata[1].gender
+     document.getElementById("content2").classList.toggle("hidden");
    })  
  }
 
@@ -55,6 +57,7 @@
      charHeight.innerHTML = "Height :" + newdata[2].height
      let charGender = document.getElementById("char-gender2");
      charGender.innerHTML = "Gender :" + newdata[2].gender
+     document.getElementById("content3").classList.toggle("hidden");
    })  
  }
 
@@ -75,6 +78,7 @@
      charHeight.innerHTML = "Height :" + newdata[3].height
      let charGender = document.getElementById("char-gender3");
      charGender.innerHTML = "Gender :" + newdata[3].gender
+     document.getElementById("content4").classList.toggle("hidden");
    })  
  }
 
@@ -95,6 +99,7 @@
      charHeight.innerHTML = "Height :" + newdata[4].height
      let charGender = document.getElementById("char-gender4");
      charGender.innerHTML = "Gender :" + newdata[4].gender
+     document.getElementById("content5").classList.toggle("hidden");
    })  
  }
 
@@ -115,6 +120,7 @@
      charHeight.innerHTML = "Height :" + newdata[5].height
      let charGender = document.getElementById("char-gender5");
      charGender.innerHTML = "Gender :" + newdata[5].gender
+     document.getElementById("content6").classList.toggle("hidden");
    })  
  }
 
@@ -135,6 +141,7 @@
      charHeight.innerHTML = "Height :" + newdata[6].height
      let charGender = document.getElementById("char-gender6");
      charGender.innerHTML = "Gender :" + newdata[6].gender
+     document.getElementById("content7").classList.toggle("hidden");
    })  
  }
 
@@ -155,6 +162,7 @@
      charHeight.innerHTML = "Height :" + newdata[7].height
      let charGender = document.getElementById("char-gender7");
      charGender.innerHTML = "Gender :" + newdata[7].gender
+     document.getElementById("content8").classList.toggle("hidden");
    })  
  }
 
@@ -175,6 +183,7 @@
      charHeight.innerHTML = "Height :" + newdata[8].height
      let charGender = document.getElementById("char-gender8");
      charGender.innerHTML = "Gender :" + newdata[8].gender
+     document.getElementById("content9").classList.toggle("hidden");
    })  
  }
 
@@ -195,6 +204,7 @@
      charHeight.innerHTML = "Height :" + newdata[9].height
      let charGender = document.getElementById("char-gender9");
      charGender.innerHTML = "Gender :" + newdata[9].gender
+     document.getElementById("content10").classList.toggle("hidden");
    })  
  }
 

@@ -11,6 +11,10 @@ body{
  
 }
 
+.hidden{
+  display: none;
+}
+
 .container{
   width: 100%;
  margin: 0 auto;
@@ -182,7 +186,9 @@ align-items: center;
   left: 10%;
   cursor: pointer;
 }
-@media only screen and (min-width: 375px){
+
+
+/* @media only screen and (min-width: 375px){
   h1{
     text-align: center;
     padding: 0;
@@ -464,4 +470,4 @@ right: -115px;
     position: relative;
     padding: 10px 0;
   }
-}
+} */
