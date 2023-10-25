@@ -41,16 +41,18 @@ h1{
 .image-flex{
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-width: 50%;
-padding: 0 60px;
-align-items: center;
+column-gap: 25px;
+row-gap: 25px;
+width:50%;
+padding: 0 20px;
 
 }
 
 .image{
-  width:50%;
+  width:100%;
   padding:10px 10px;
-  
+  position: relative;
+ 
 }
 
 #char1btn{
@@ -188,7 +190,8 @@ align-items: center;
 }
 
 
-/* @media only screen and (min-width: 375px){
+
+ @media only screen and (max-width: 480px){
   h1{
     text-align: center;
     padding: 0;
@@ -209,265 +212,3 @@ align-items: center;
   }
 }
 
-@media only screen and (max-width: 667px){
-  h1{
-    text-align: center;
-    padding: 0;
-    font-size: 20px;
-  }  
-  .image-flex{
-    display: block;
-width: 10%;
-padding: 0 80px;
-align-items: center;
-  }
-  .image{
-    width: 10%;
-  }
-}
-
-@media only screen and (max-width: 896px){
-  h1{
-    text-align: center;
-    padding: 0;
-    font-size: 20px;
-  }  
-  .image-flex{
-    display:inline-block;
-width: 10%;
-padding: 0 100px;
-align-items: center;
-  }
-  .image{
-    width: 15%;
-  }
-}
-
-@media only screen and (max-width: 844px){
-  h1{
-    text-align: center;
-    padding: 0;
-    font-size: 20px;
-  }  
-  .image-flex{
-    display:inline-block;
-width: 10%;
-padding: 0 90px;
-align-items: center;
-  }
-  .image{
-    width: 10%;
-  }
-}
-
-@media only screen and (max-width: 851px){
-  h1{
-    text-align: center;
-    padding: 0;
-    font-size: 20px;
-  }  
-  .image-flex{
-  display:inline-block;
-width: 10%;
-padding: 0 85px;
-align-items: center;
-  }
-  .image{
-    width: 9%;
-  }
-}
-
-@media only screen and (max-width: 915px){
-  h1{
-    text-align: center;
-    padding: 0;
-    font-size: 20px;
-  }  
-  .image-flex{
-  display:inline-block;
-width: 10%;
-padding: 0 100px;
-align-items: center;
-  }
-  .image{
-    width: 10%;
-  }
-}
-
-@media only screen and (max-width: 1180px){
-  h1{
-    text-align: center;
-    padding: 0;
-    font-size: 20px;
-  }  
-  .image-flex{
-  display:grid;
-  grid-template-columns: 1fr 1fr;
-width: 10%;
-  }
-  .image{
-    width: 10%;
-    margin: 0 30px;
-    padding: 0 30px;
-    align-items: center;
-  }
-}
-
-@media only screen and (max-width: 1024px){
-  h1{
-    text-align: center;
-    padding: 0;
-    font-size: 40px;
-  }  
-  .image-flex{
-  display:grid;
-  grid-template-columns: 1fr 1fr;
-width: 10%;
-  }
-  .image{
-    width: 10%;
-    margin: 0 25px;
-    padding: 0 20px;
-    align-items: center;
-  }
-}
-
-@media only screen and (max-width: 1368px){
-  h1{
-    text-align: center;
-    padding: 0;
-    font-size: 50px;
-  }  
-  .image-flex{
-  display:grid;
-  grid-template-columns: 1fr 1fr;
-
-  }
-  .image{
-    width: 100%;
-    margin: 0 50px;
-    padding: 0 25px;
-    align-items: center;
-    
-  }
-}
-
-@media only screen and (max-width: 720px){
-  h1{
-    text-align: center;
-    padding: 0;
-    font-size: 50px;
-  }  
-  .image-flex{
-  display:block;
-  width: 50%;
-padding: 20px 100px;
-align-items: center;
-position: relative;
-right: -115px;
-
-
-  }
-  .image{
-    width: 50%;
-    margin: 0 50px;
-    padding: 0 25px;
-    align-items: center;
-    
-  }
-}
-
-@media only screen and (min-width: 280px){
-  h1{
-    text-align: center;
-    padding: 0;
-    font-size: 18px;
-  }  
-  .image-flex{
-    display: block;
-  }
-  .image{
-    width: 10%;
-    left: -220px;
-    position: relative;
-    padding: 10px 0;
-  }
-}
-
-@media only screen and (max-width: 653px){
-  h1{
-    text-align: center;
-    padding: 0;
-    font-size: 18px;
-  }  
-  .image-flex{
-    display: block;
-  }
-  .image{
-    width: 10%;
-    right: 115px;
-    position: relative;
-    padding: 10px 0;
-  }
-}
-
-@media only screen and (max-width: 1280px){
-  h1{
-    text-align: center;
-    padding: 0;
-    font-size: 18px;
-  }  
-  .image-flex{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    width: 10%;
-    padding: 0;
-  }
-  .image{
-    width: 10%;
-    left: 50px;
-    position: relative;
-    padding: 10px 0;
-  }
-}
-
-
-@media only screen and (max-width: 1024px){
-  h1{
-    text-align: center;
-    padding: 0;
-    font-size: 40px;
-  }  
-  .image-flex{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 10%;
-    padding: 0;
-  }
-  .image{
-    width: 10%;
-    left: 50px;
-    position: relative;
-    padding: 10px 0;
-  }
-}
-
-@media only screen and (min-width: 600px){
-  h1{
-    text-align: center;
-    padding: 0;
-    font-size: 40px;
-  }  
-  .image-flex{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 10%;
-    padding: 0;
-  }
-  .image{
-    width: 10%;
-    left: 50px;
-    position: relative;
-    padding: 10px 0;
-  }
-} */
